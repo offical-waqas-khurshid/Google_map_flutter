@@ -11,7 +11,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  Completer<GoogleMapController> _controller =  Completer();
+  Completer<GoogleMapController> _controller = Completer();
   static const CameraPosition _cameraPosition = CameraPosition(
       target: LatLng(37.42796133580664, -122.085749655962), zoom: 14.4746);
 
@@ -20,7 +20,9 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: GoogleMap(
         mapType: MapType.normal,
-        onMapCreated: (GoogleMapController controller){
+        myLocationEnabled: true,
+        compassEnable: false,
+        onMapCreated: (GoogleMapController controller) {
           _controller.complete(controller);
         },
         initialCameraPosition: _cameraPosition,
