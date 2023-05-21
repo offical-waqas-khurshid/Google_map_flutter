@@ -1,16 +1,16 @@
 # google_map
 
-A new Flutter project.
+In this project working on google map with different sceniros.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Single marker show on screen
+![WhatsApp Image 2023-05-22 at 02 59 41](https://github.com/offical-waqas-khurshid/Google_map_flutter/assets/111581093/cf639113-0736-407b-a55a-174f4f1e95bb)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Multiple markers show in screen
+![WhatsApp Image 2023-05-22 at 02 59 42](https://github.com/offical-waqas-khurshid/Google_map_flutter/assets/111581093/7db16b32-e957-49bb-8290-7247f578347c)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+simple view google map in screen
+![WhatsApp Image 2023-05-22 at 02 59 43](https://github.com/offical-waqas-khurshid/Google_map_flutter/assets/111581093/b74f7307-9b3e-4af0-938e-ab6b7389873c)
